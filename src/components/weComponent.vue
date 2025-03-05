@@ -46,4 +46,20 @@
     transform: translate(-50%, -50%);
   }
 
+  @media (max-width: 1000px) {
+      .we p {
+          font-size: 20px;
+      }
+
+      .we_video {
+          height: 600px;
+      }
+  }
+
+  @media (max-width: 600px) {
+      .we_video {
+          height: 350px;
+      }
+  }
+
 </style>

@@ -33,5 +33,16 @@ import Button from "@components/ui/Button.vue";
     padding: 0 10px;
   }
 
+  @media (max-width: 1000px) {
+      .header_container nav {
+          max-width: 300px;
+      }
+  }
+  
+  @media (max-width: 600px) {
+      .header_container nav {
+          display: none;
+      }
+  }
 
 </style>

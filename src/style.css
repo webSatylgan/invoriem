@@ -84,3 +84,16 @@ a:hover::after {
     align-items: center;
     width: 100%;
 }
+
+/* meida ----------------------*/
+@media (max-width: 1000px) {
+    h1, h2 {
+        font-size: 65px;
+    }
+}
+
+@media (max-width: 420px) {
+    h1, h2 {
+        font-size: 45px;
+    }
+}

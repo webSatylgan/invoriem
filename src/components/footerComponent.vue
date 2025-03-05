@@ -35,4 +35,18 @@
   .footer_social {
     max-width: 240px;
   }
+
+  @media (max-width: 600px) {
+      .footer {
+          flex-direction: column;
+          gap: 30px;
+      }
+  }
+
+  @media (max-width: 520px) {
+      .footer_info {
+          flex-direction: column;
+          gap: 15px;
+      }
+  }
 </style>

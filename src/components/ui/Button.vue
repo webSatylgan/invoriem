@@ -17,22 +17,17 @@
     align-items: center;
     padding: 10px 25px;
     border: 1px solid var(--teal);
-
   }
 
   button svg {
     margin-left: 15px;
 
-    fill: var(--teal);
+    fill: currentColor;
     transition: .2s;
   }
   /* button hover animation */
   button:hover {
     color: #fff;
     background: var(--teal);
-  }
-
-  button:hover svg {
-    fill: #fff;
   }
 </style>

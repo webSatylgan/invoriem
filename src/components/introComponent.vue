@@ -73,6 +73,15 @@ import Button from "@components/ui/Button.vue";
     background: var(--teal);
   }
 
+  .intro_container button:hover {
+      background: transparent;
+      color: var(--teal);
+  }
 
-
+  /* media ---------------- */
+  @media (max-width: 1000px) {
+      .intro_container p {
+          font-size: 20px;
+      }
+  }
 </style>
